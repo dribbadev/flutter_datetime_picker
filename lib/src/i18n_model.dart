@@ -41,6 +41,43 @@ final _i18nModel = {
     'am': 'AM',
     'pm': 'PM'
   },
+  'es': {
+    //default
+    'cancel': 'Cancelar',
+    'done': 'Hecho',
+    'today': 'Hoy',
+    'monthShort': [
+      'Ene',
+      'Feb',
+      'Mar',
+      'Abr',
+      'May',
+      'Jun',
+      'Jul',
+      'Ago',
+      'Set',
+      'Oct',
+      'Nov',
+      'Dic'
+    ],
+    'monthLong': [
+      'Enero',
+      'Febrero',
+      'Marzo',
+      'Abril',
+      'Mayo',
+      'Junio',
+      'Julio',
+      'Agosto',
+      'Setiembre',
+      'Octubre',
+      'Noviembre',
+      'Diciembre'
+    ],
+    'day': ['Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab', 'Dom'],
+    'am': 'AM',
+    'pm': 'PM'
+  },
   'zh': {
     //Chinese
     'cancel': '取消',
@@ -105,6 +142,8 @@ Map<String, dynamic> i18nObjInLocale(LocaleType type) {
       return _i18nModel['zh'];
     case LocaleType.nl:
       return _i18nModel['nl'];
+    case LocaleType.es:
+      return _i18nModel['es'];
     default:
       return _i18nModel['en'];
   }
