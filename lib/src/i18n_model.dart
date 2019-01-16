@@ -2,6 +2,7 @@ enum LocaleType {
   zh,
   nl,
   en,
+  es,
 }
 final _i18nModel = {
   'en': {
